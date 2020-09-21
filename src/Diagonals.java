@@ -11,11 +11,15 @@ public class Diagonals {
     int k = 0;
     int l = arr.length-1;
 
-    while(i< rows && j< columns && k < rows && 1 >= 0) {
-        leftCorner += arr[i][k];
+    while(i < rows && j < columns && k < rows && l >= 0) {
+        leftCorner += arr[i][j];
         rightCorner += arr[k][l];
-        i += l;
-        }
+        i++;
+        j++;
+        k++;
+        l--;
+    }
+
     return Math.abs(leftCorner - rightCorner);
     }
 }
