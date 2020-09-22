@@ -8,11 +8,12 @@ class repeatedSubStringPatten {
                 int num_repeats = len / i;
                 String substring = s.substring(0, i);
                 StringBuilder sb = new StringBuilder();
-                sb.append(substring);
+                for(int j = 0; j < num_repeats; j++) { 
+                    sb.append(substring); 
+                }
+                if (sb.toString().equals(s)) return true;
             }
-            if (sb.toString.equals(s)) return true;
         }
+        return false;
     }
-    return false;
-}
 }
