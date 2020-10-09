@@ -9,7 +9,7 @@ public class HandsOfCard {
             if(!card_counts.containsKey(card)) {
                 card_counts.put(card, 1);
             } else {
-                card_counts.replace(card, card_counts.get(card) + 1)
+                card_counts.replace(card, card_counts.get(card) + 1);
             }
         }
 
