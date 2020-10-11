@@ -21,8 +21,6 @@ public class newYearsChaos {
         }
     }
     }
-
-    [2, 1, 5, 4 3]
     // i[0] j[0]  compare 2 with 2, nope
     // i[0] j[1] compare 2 with 1, i > j, bribes++
     //i[0] j[2] compare 2 with 5, i > j, false
