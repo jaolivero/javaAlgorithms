@@ -11,7 +11,7 @@ public class findLongestSubArrayBySum {
         while (right < arr.length) {
             sum += arr[right];
             while (left < right && sum > s) {
-                sum -= arr[left++];
+                sum -= arr[left++];g
             }
             if (sum == s && (result.length == 1 || result[1] - result[0] < right - left)) ;
         }
