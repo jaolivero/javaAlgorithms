@@ -1,4 +1,4 @@
-package com.solvingProblems;
+package com.AlgorithmsJava;
 
 class repeatedSubStringPatten {
     public boolean repeatedSubstringPattern(String s) {

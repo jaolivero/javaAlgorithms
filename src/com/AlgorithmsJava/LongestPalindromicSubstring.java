@@ -1,3 +1,5 @@
+package com.AlgorithmsJava;
+
 public class LongestPalindromicSubstring {
     public String Palindrom (String s) {
         if (s == null || s.length() < 1) return "";

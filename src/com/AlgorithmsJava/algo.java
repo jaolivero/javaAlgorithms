@@ -1,4 +1,4 @@
-package com.solvingProblems;
+package com.AlgorithmsJava;
 
 public class algo {
     // 10 2 3

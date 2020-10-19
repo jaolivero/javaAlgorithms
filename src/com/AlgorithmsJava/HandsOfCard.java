@@ -1,3 +1,5 @@
+package com.AlgorithmsJava;
+
 import java.util.TreeMap;
 
 public class HandsOfCard {

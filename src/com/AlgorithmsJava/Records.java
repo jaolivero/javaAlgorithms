@@ -1,8 +1,8 @@
-package com.solvingProblems;
+package com.AlgorithmsJava;
 
 import java.util.Arrays;
 
-public class Main {
+public class Records {
     public static void main(String[] args) {
         int newArray[] = {10, 5, 20, 20, 4, 5, 2, 25, 1};
         System.out.println(Arrays.toString(BreakingRecords(newArray)));

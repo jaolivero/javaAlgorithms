@@ -1,4 +1,4 @@
-package com.solvingProblems.practice;
+package com.AlgorithmsJava;
 
 public class findLongestSubArrayBySum {
     public int [] findFunction(int s, int[] arr) {
@@ -11,7 +11,7 @@ public class findLongestSubArrayBySum {
         while (right < arr.length) {
             sum += arr[right];
             while (left < right && sum > s) {
-                sum -= arr[left++];g
+                sum -= arr[left++];
             }
             if (sum == s && (result.length == 1 || result[1] - result[0] < right - left)) ;
         }

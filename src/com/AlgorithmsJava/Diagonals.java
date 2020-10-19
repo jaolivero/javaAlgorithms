@@ -1,3 +1,5 @@
+package com.AlgorithmsJava;
+
 public class Diagonals {
     static int diagonalDifference(int[] [] arr) {
     int leftCorner = 0;

@@ -1,4 +1,4 @@
-package com.solvingProblems;
+package com.AlgorithmsJava;
 
 import java.util.ArrayList;
 

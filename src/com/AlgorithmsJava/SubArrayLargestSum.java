@@ -1,3 +1,5 @@
+package com.AlgorithmsJava;
+
 public class SubArrayLargestSum {
     int ArrayMaxConsecutiveSum2(int[] inputArray) {
         int max_sum = inputArray[0];
