@@ -10,7 +10,7 @@ public class algo2 {
     class Adder extends Arithmetic {
         private int result = 0;
         public int Adder (int A, int B) {
-            result = super.add(A, B);
+            result = add(A, B);
             return result;
         }
     }

@@ -1,7 +1,7 @@
 package com.AlgorithmsJava;
 
 public class LongestPalindromicSubstring {
-    public String Palindrom (String s) {
+   /* public String Palindrom (String s) {
         if (s == null || s.length() < 1) return "";
         int start = 0;
         int end = 0;
@@ -26,6 +26,15 @@ public class LongestPalindromicSubstring {
         }
 
         return right - left - 1;
+    }
+*/
+    public boolean isPalindrome(String str) {
+
+        return true;
+    }
+
+    public void longestPalindrome(String s) {
+
     }
 
 
