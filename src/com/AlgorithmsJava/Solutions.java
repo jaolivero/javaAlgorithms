@@ -212,7 +212,7 @@ public class Solutions {
             int current = expenditure.get(i);
             if(median * 2 >= current ) {
                 alerts += 1;
-                System.out.println(expenditure.get(i) "double or equal");
+                System.out.println(expenditure.get(i) + "double or equal");
             }
         }
 

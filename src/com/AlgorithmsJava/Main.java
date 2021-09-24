@@ -14,8 +14,11 @@ public class Main {
         List<Integer> days = new ArrayList<Integer>(Arrays.asList(2, 3, 4 ,2, 3, 6, 8, 4, 5));
 
 
-       int answer =  test.alerts(days, 5);
-        System.out.println(answer);
+        String d = "racecar";
+       //int answer =  test.alerts(days, 5);
+       // System.out.println(answer);
+       boolean results = LongestPalindromicSubstring.isPalindrome(d);
+        System.out.println(results);
         //test.solutions();
 
         //test.Substring("cat", "high");
