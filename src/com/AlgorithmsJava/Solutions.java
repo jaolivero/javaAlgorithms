@@ -169,7 +169,6 @@ public class Solutions {
 
     public List<Integer>arrayShift(List <Integer>a,  int rotateNum) {
         List<Integer> shiftedArr = new ArrayList<>();
-        int endNum = a.size() - 1;
         int start = 0;
 
         while(start < rotateNum) {

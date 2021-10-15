@@ -1,5 +1,8 @@
 package com.AlgorithmsJava;
 
+import java.util.Collections;
+import java.util.List;
+
 public class SubArrayLargestSum {
     int ArrayMaxConsecutiveSum2(int[] inputArray) {
         int max_sum = inputArray[0];
@@ -9,4 +12,24 @@ public class SubArrayLargestSum {
         }
         return max_sum;
     }
+
+    public static void countSwaps(List<Integer> a) {
+        int swaps = 0;
+        int loop = 0;
+
+        while(loop <= a.size()){
+            for(int i = 0; i < a.size()- 1; i++){
+                if(a.get(i) > a.get(i +1)){
+                    Collections.swap(a, i, i + 1);
+                    swaps += 1;
+                }
+                //System.out.println(a);
+            }
+            loop += 1;
+        }
+        System.out.println("Array is sorted in " + swaps + " swaps.");
+        System.out.println("First Element: " + a.get(0));
+        System.out.println("Last Element: " + a.get(a.size()-1));
+    }
+
 }
