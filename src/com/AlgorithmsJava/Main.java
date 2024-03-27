@@ -17,8 +17,7 @@ public class Main {
 
         //SubArrayLargestSum.countSwaps(nums);
 
-        Anagrams.totalAnagrams(3);
-
+        //Anagrams.totalAnagrams(3);
 
         String d = "racecar";
        //int answer =  test.alerts(days, 5);
