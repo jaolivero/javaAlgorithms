@@ -15,6 +15,7 @@ public class ReverseAString {
 
 //a lot of instances will be garbage collected it not for StringBuilder method
     private static  String StringReverseManully(String str) {
+
         StringBuilder sb = new StringBuilder();
 
         for(int i = str.length() - 1; i >= 0; i--) {

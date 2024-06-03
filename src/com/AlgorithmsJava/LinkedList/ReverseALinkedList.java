@@ -1,7 +1,8 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.LinkedList;
+
+import java.util.LinkedList;
 
 public class ReverseALinkedList {
-
     //1->2->3
     //3<-2<-1
 
@@ -24,7 +25,7 @@ public class ReverseALinkedList {
     }
 
 
-    public class ListNode{
+    public static class ListNode{
         int val;
         ListNode next;
         ListNode() {}
