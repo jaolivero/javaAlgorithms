@@ -1,4 +1,4 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.Arrays;
 
 import java.util.Collections;
 import java.util.List;

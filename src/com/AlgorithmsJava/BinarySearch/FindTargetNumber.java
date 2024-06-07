@@ -1,6 +1,6 @@
 package com.AlgorithmsJava.BinarySearch;
 
-public class findTargetNumber {
+public class FindTargetNumber {
     public int searchInsert(int[] nums, int target) {
         int ans = nums.length;
         int left = 0, right = ans - 1;

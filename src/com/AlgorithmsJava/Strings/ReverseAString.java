@@ -1,4 +1,4 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.Strings;
 
 public class ReverseAString {
         // Strings are immutable, new instances are created when manipulating

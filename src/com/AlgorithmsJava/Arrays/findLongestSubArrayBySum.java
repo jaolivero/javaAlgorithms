@@ -1,4 +1,4 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.Arrays;
 
 public class findLongestSubArrayBySum {
     public int [] findFunction(int s, int[] arr) {

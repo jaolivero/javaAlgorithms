@@ -1,4 +1,4 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.Strings;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
@@ -16,8 +16,7 @@ public class TwoStrings {
                 System.out.println("Yes");
                 return "Yes";
             }
-            else {
-            }
+
         }
         System.out.println("No");
                 return "No";

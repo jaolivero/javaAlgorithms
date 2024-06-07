@@ -1,4 +1,4 @@
-package com.AlgorithmsJava;
+package com.AlgorithmsJava.Strings;
 
 public class Abbr {
     public String abbrCase (String a, String b) {
