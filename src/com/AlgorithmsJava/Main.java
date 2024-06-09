@@ -1,18 +1,15 @@
 package com.AlgorithmsJava;
 
 
+import com.AlgorithmsJava.Arrays.BinarySearch.FindTargetNumber;
 
-
-import java.io.IOException;
-import java.io.ObjectStreamClass;
-import java.net.URI;
-import java.net.URISyntaxException;
-
+import java.util.Arrays;
 
 public class Main {
 
 
-    public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
+    public static void main(String[] args) {
+
 
 
     }

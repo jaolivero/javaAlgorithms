@@ -1,6 +1,4 @@
-package com.AlgorithmsJava.LinkedList;
-
-import java.util.LinkedList;
+package com.AlgorithmsJava.Arrays.LinkedList;
 
 public class ReverseALinkedList {
     //1->2->3

@@ -1,4 +1,4 @@
-package com.AlgorithmsJava.LinkedList;
+package com.AlgorithmsJava.Arrays.LinkedList;
 
 public class MedianOfTwoSortedArrays {
 
