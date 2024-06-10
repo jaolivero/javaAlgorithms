@@ -10,7 +10,6 @@ public class FindTargetNumber {
 
         while (left <= right) {
             int mid = (left + right) / 2;
-            System.out.println(mid);
 
             if(nums[mid] == target) return mid;
 

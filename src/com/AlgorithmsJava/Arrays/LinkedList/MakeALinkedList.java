@@ -1,6 +1,6 @@
 package com.AlgorithmsJava.Arrays.LinkedList;
 
-public class MakeALinkedLIst {
+public class MakeALinkedList {
 
     public void create(){
 
